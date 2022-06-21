@@ -4,7 +4,7 @@ import ProgressBar from "./ProgressBar";
 const UploadForm = () => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
-  const fileTypes = ["images/png", "image/jpeg"];
+  const fileTypes = ["image/png", "image/jpeg"];
 
   const onFileChange = (e) => {
     let selectedFile = e.target.files[0];
